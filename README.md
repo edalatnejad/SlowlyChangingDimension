@@ -1,7 +1,7 @@
 ## Slowly Changing Dimension (Example - Product Dimension)
 
 # Overview
-Slowly Changing Dimension (SCD) is a common technique used in data warehousing to manage changes to dimension data over time. In this example, we focus on a Product dimension table and implement three levels of SCD:
+Slowly Changing Dimension (SCD) is a common technique used in data warehousing to manage changes to dimension data over time. In this example, we focus on a Product dimension table and implement three levels of SCD with T_Sql:
 
 * Level 0: No change tracking. ProductName and Brand attributes.
 * Level 1: Tracking updates. OutOfStock and Url attributes.
