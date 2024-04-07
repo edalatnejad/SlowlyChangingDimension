@@ -23,10 +23,10 @@ The implementation includes the creation of staging and dimension tables, as wel
 3. StoredProcedure Script
    
    Purpose: Creates a stored procedure (SlowlyChangeDimension_Product) to apply SCD techniques to the Product dimension.
-   File: StoredProcedureScript.sql
+   File: StoredProcedureScript.sql 
 
 # Usage
 Execute the ProductScript.sql to create the necessary schemas and tables and load data into them.
 Use the InsertToStage.sql script for testing by updating the staged table.
 Execute the StoredProcedureScript.sql to create the stored procedure for applying SCD techniques.
-exec the SlowlyChangeDimension_Product stored procedure to manage changes to the Product dimension table.
+exec the SlowlyChangeDimension_Product stored procedure to manage changes to the Product dimension table (exec [dbo].[SlowlyCahangeDimension_Product]).
